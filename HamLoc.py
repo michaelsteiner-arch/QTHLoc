@@ -21,7 +21,7 @@ def CalcDistBear(strMyLoc, strDBLoc):
 		if ( X < 0):
 		   Y = math.pi - Y
 		
-		Dist = 6371.0 * Y
+		Dist = 6371.0 * Y	# output in Km
 		strDist = str(f'{Dist:.0f}')
 
 		V = math.sin(ResLon - MyLon) * math.cos(ResLat) * math.cos(MyLat)
