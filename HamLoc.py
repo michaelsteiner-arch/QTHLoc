@@ -1,5 +1,10 @@
 class HamLoc:
-    """QRA-Locator Calculations"""
+    """ 
+    QTH Locator Conversion to Latitude and Longitude values
+    Input: Own Locator and other locator
+    Returns: Distance in Km and direction in degree
+    Warning: Does not take earth as elipsoid.
+    """
 
 import math
 
